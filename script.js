@@ -1,8 +1,4 @@
-<input type="text" id="name" placeholder="Enter name">
-<button id="submit" onclick="go()">Check</button>
-<p id="res"></p>
 
-<script>
 let a = document.getElementById("res");
 let z = ["sejal","aayushma","supriya","yashoda","aaha"];
 let y = ["safal","paras","sumit","nisip","pratyush","titan","suyog","abhinav"];
@@ -15,7 +11,7 @@ function go() {
         return;
     }
 
-    else if(name === "shishir") {
+    else if(name == "shishir") {
         a.innerHTML = "How can you even think of it????? He is straight as fuck!!";
         return;
     }
@@ -37,4 +33,5 @@ function go() {
     }
 }
 </script>
+
 
