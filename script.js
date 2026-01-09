@@ -1,9 +1,11 @@
+
 let x = document.getElementById("submit");
 let a = document.getElementById("res");
 let z = ["sejal","aayushma","supriya","yashoda","aaha"];
 let y = ["safal","paras","sumit","nisip","pratyush","titan","suyog","abhinav"];
 function go(){
     let name = document.getElementById("name").value;
+    name = tolower(name);
     for(let i = 0;i<y.length;i++)
     {
         if(name == y[i])
@@ -33,3 +35,4 @@ function go(){
         }
     }
 }
+
