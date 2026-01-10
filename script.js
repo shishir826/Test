@@ -1,6 +1,6 @@
 let x = document.getElementById("submit");
 let a = document.getElementById("res");
-let z = ["sejal","aayushma","supriya","yashoda","aaha"];
+let z = ["sejal","aayushma","supriya","yashoda","aaha","aayusma","ayusma","ayushma"];
 let y = ["safal","paras","sumit","nisip","pratyush","titan","suyog","abhinav"];
 function go(){
     let name = document.getElementById("name").value.toLowerCase();
@@ -33,3 +33,4 @@ function go(){
         }
     }
 }
+
